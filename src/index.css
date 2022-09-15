@@ -1,0 +1,16 @@
+:root {
+    /* Primary */
+    --CtaText: hsl(356, 100%, 66%);
+    --CtaHoverBackground: hsl(355, 100%, 74%);
+    --Heading: hsl(208, 49%, 24%);
+
+    --mainText: hsl(0, 0%, 100%);
+    --footerText: hsl(240, 2%, 79%);
+    --bodyCopy: hsl(207, 13%, 34%);
+    --footerBackground: hsl(240, 10%, 16%);
+    --font-family: 'Ubuntu', sans-serif;
+
+
+    --NavGradient: linear-gradient(to right, rgb(255, 143, 112) to rgb(255, 61, 84));
+    --BackgroundGradient: linear-gradient(rgb(44, 45, 63),  hsl(237, 23%, 32%));
+}

@@ -1,0 +1,44 @@
+.blogr__section {
+    margin-top: 6rem;
+    position: relative;
+    padding-block: clamp(2rem, -10.5rem + 25vw, 12rem) clamp(2rem, -12.375rem + 28.75vw, 13.5rem);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30rem;
+}
+
+
+.laptop {
+    width: 50%;
+    position: absolute;
+    left: -11rem;
+    top: 0;
+}
+
+.blogr__section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+
+@media screen and (max-width:1115px) {
+    .blogr__section {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .laptop {
+        position: static;
+        padding-left: 10%;
+        width: 100%;
+    }
+
+    .blogr__section-text {
+        text-align: center;
+        padding: 0 2rem;
+    }
+}

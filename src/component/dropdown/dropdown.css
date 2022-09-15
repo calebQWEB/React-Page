@@ -1,0 +1,11 @@
+.sublinks {
+    padding: 1rem;
+}
+
+.sublinks-text {
+    color: var(--Heading);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+

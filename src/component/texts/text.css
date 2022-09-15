@@ -1,0 +1,35 @@
+.blogr__text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Heading);
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.blogr__text p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--Heading);
+}
+
+
+@media screen and (max-width: 760px) {
+    .blogr__text h1 {
+        font-size: 18px;
+    }
+
+    .blogr__text p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .blogr__text h1 {
+        font-size: 18px;
+    }
+
+    .blogr__text p {
+        font-size: 13px;
+    }
+}

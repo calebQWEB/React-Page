@@ -1,0 +1,113 @@
+.blogr__header {
+    text-align: center;
+    position: relative;
+}
+
+.blogr__header-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blogr__header h1 {
+    font-size: 40px;
+    color: var(--mainText);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.blogr__header p {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--mainText);
+    margin-bottom: 1.5rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogr__header .blogr__header_button-free {
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    border: none;
+    background: var(--mainText);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--CtaText);
+}
+
+.blogr__header_button-free:hover {
+    color: var(--mainText);
+    background: rgba(255, 255, 255, .35);
+	-webkit-backdrop-filter: blur(50%);
+	backdrop-filter: blur(50%);
+}
+
+.blogr__header_button-learn {
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    border: 1px solid var(--mainText);
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--mainText);
+}
+
+.blogr__header_button-learn:hover {
+    background-color: var(--mainText);
+    color: var(--CtaText);
+}
+
+
+@media screen and (max-width:750px) {
+    .blogr__header h1 {
+        font-size: 30px;
+    }
+
+    .blogr__header p {
+        font-size: 13px;
+    }
+
+    .blogr__header .blogr__header_button-free {
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+    }
+
+    .blogr__header_button-learn {
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .blogr__header {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .blogr__header h1 {
+        font-size: 20px;
+    }
+
+    .blogr__header p {
+        font-size: 12px;
+    }
+
+    .blogr__header .blogr__header_button-free {
+        padding: 0.5rem;
+        font-size: 10px;
+    }
+
+    .blogr__header_button-learn {
+        padding: 0.5rem;
+        font-size: 10px;
+    }
+}

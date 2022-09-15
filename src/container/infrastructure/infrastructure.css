@@ -1,0 +1,94 @@
+.blogr__infra {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+
+    background:-moz-radial-gradient(circle at 10% 24%, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%);
+    background:-webkit-radial-gradient(circle at 10% 24%, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%);
+    background:-o-radial-gradient(circle at 10% 24%, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%);
+    background:-ms-radial-gradient(circle at 10% 24%, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%);
+    background:radial-gradient(circle at 10% 24%, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 100%);
+
+}
+
+.blogr__infra-text h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--mainText);
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.blogr__infra-text p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--mainText);
+}
+
+
+.blogr__infra-images {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    right: 100%;
+    margin-inline: auto;
+    width: min(100%, 23.75rem);
+}
+
+.phones {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1115px) {
+    .blogr__infra {
+        gap: 25rem;
+        margin: 8rem 0 0 0;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+    .blogr__infra {
+        gap: 15rem;
+        flex-direction: column;
+        background-position: center;
+    }
+
+    .blogr__infra-images {
+        position: absolute;
+        top: -8rem;
+        left: 0;
+        right: 0;
+    }
+
+    .phones {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .blogr__infra-text {
+        text-align: center;
+    }
+
+    .blogr__infra-text h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .blogr__infra-text p {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: var(--mainText);
+    }
+}
+
+@media screen and (max-width:950px) {
+    .blogr__infra {
+        margin-top: 10rem;
+    }
+}
