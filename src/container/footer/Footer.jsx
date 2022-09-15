@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='blogr__footer-container'>
 
           <div className='footer-image'>
-            <img src={logo} />
+            <img src={logo} alt='logo'/>
           </div>
 
 

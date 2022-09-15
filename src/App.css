@@ -7,6 +7,10 @@
   transition: 0.3s;
 }
 
+.App {
+  height: 100%;
+}
+
 .header-background {
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 9% 28%, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);

@@ -8,7 +8,7 @@ const Section = () => {
     <div className='blogr__section'>
 
       <div className='blogr__section-image_container'>
-        <img src={laptop} className='laptop'/>
+        <img src={laptop} className='laptop' alt='image'/>
       </div>
 
       <div className='blogr__section-text'>

@@ -19,7 +19,7 @@ const Future = () => {
                 text='Flexible content management enables usets to easily move through posts.Increase the usability of you blog by adding customized categories, sections, format, or flow. With this functionality, you"re in full control'/>
         </div>
 
-          <img src={circle} className='blogr__future-image'/>
+          <img src={circle} className='blogr__future-image' alt='circle-pattern'/>
       </div>
     </div>
   )

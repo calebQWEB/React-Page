@@ -23,13 +23,13 @@ const Nav = () => {
 
   return (
     <div className='blogr__nav'>
-      <img src={logo}/>
+      <img src={logo} alt='logo'/>
       <ul className='blogr__nav-links'>
         <li><a href='#' className='navLinks'>Product</a></li>
         <li><a href='#' className='navLinks'>Company</a></li>
 
         <li><a href='#'  className='navLinks' onClick={dropClick}>Connect</a>
-          <img src={lightDropDown} className='dropdown-icon'/>
+          <img src={lightDropDown} className='dropdown-icon' alt='dropdown-icon'/>
 
         {dropOpen &&  (<ul className='blogr__nav-sublinks scale-up-ver-top'>
                         <Dropdown text= "Contact"/>
@@ -47,8 +47,8 @@ const Nav = () => {
 
       <div className='blogr__nav-menu'>
         {navMenu? 
-          <img src={close} onClick={navClick} className='close'/>:
-          <img src={hambuger} onClick={navClick} className='hamburger'/>
+          <img src={close} onClick={navClick} className='close' alt='close-menu'/>:
+          <img src={hambuger} onClick={navClick} className='hamburger' alt='hamburger-menu'/>
           }
           
         {navMenu && (
@@ -58,7 +58,7 @@ const Nav = () => {
               <li><a href='#' className='navLinks1'>Company</a></li>
       
               <li><a href='#'  className='navLinks1' onClick={dropClick}>Connect</a>
-                <img src={darkDropDown} className='dropdown-icon-dark'/>
+                <img src={darkDropDown} className='dropdown-icon-dark' alt='red dropdown icon'/>
       
               {dropOpen &&  (<ul className='blogr__nav-menu_sublinks scale-up-ver-top'>
                               <Dropdown text= "Contact"/>

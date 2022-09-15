@@ -15,7 +15,7 @@ const Infrastructure = () => {
                                                             borderRadius: '0 70px 0 70px'}}>
       <div className='blogr__infra-container'>
           <div className='blogr__infra-images'>
-            <img src={phones} className='phones'/>
+            <img src={phones} className='phones' alt='phones'/>
           </div>
       </div>
 
